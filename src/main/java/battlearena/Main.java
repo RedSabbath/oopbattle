@@ -6,9 +6,10 @@ public class Main {
 
         Enemy zombie = new Enemy();
 
-        zombie.typeOfEnemy = "Zombie";
+        zombie.setTypeOfEnemy("Zombie");
 
-        System.out.println(zombie.typeOfEnemy + " has " + zombie.healthPoints + " health points and can do an attack of " + zombie.attackDamage);
+        System.out.println(zombie.getTypeOfEnemy() + " has " + zombie.getHealthPoints() +
+                " health points and can do an attack of " + zombie.getAttackDamage());
 
 
         zombie.talk();
