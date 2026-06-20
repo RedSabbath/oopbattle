@@ -34,7 +34,7 @@ public class Enemy {
     }
 
     public void talk() {
-        System.out.println("I am a enemy be prepared to fight!");
+        System.out.println("I am an enemy be prepared to fight!");
     }
 
     public void walkForward ()  {
