@@ -14,27 +14,32 @@ public class Enemy {
         this.attackDamage = attackDamage;
     }
 
-
+    // getter for typeOfEnemy
     public String getTypeOfEnemy()  {
         return typeOfEnemy;
     }
 
+    // setter for typeOfEnemy
     public void setTypeOfEnemy(String typeOfEnemy)    {
         this.typeOfEnemy = typeOfEnemy;
     }
 
+    // getter for healthPoints
     public int getHealthPoints()    {
         return healthPoints;
     }
 
+    // setter for healthPoints
     public void setHealthPoints(int healthPoints)   {
         this.healthPoints = healthPoints;
     }
 
+    //getter for attackDamage
     public int getAttackDamage()    {
         return attackDamage;
     }
 
+    // setter for attackDamage
     public void setAttackDamage(int attackDamage)   {
         this.attackDamage = attackDamage;
     }

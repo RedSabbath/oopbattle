@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        // default constructor
         Enemy zombie = new Enemy("Zombie", 10, 1);
+        Enemy ogre = new Enemy("Orge", 20, 3);
 
 
         System.out.println(zombie.getTypeOfEnemy() + " has " + zombie.getHealthPoints() +
@@ -15,5 +15,8 @@ public class Main {
         zombie.talk();
         zombie.walkForward();
         zombie.attack();
+
+        ogre.talk();
+        ogre.walkForward();
     }
 }
