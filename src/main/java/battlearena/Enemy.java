@@ -4,6 +4,7 @@ public class Enemy {
 
     private int id;
     private int healthPoints;
+    private int healthPointsRemaining;
     private int attackDamage;
     private static int numberOfEnemies;
 
@@ -11,9 +12,14 @@ public class Enemy {
     public Enemy (int healthPoints, int attackDamage) {
 
         this.healthPoints = healthPoints;
+        this.healthPointsRemaining = healthPoints;
         this.attackDamage = attackDamage;
         numberOfEnemies++;
         this.id = numberOfEnemies;
+    }
+
+    public void specialAttack ()    {
+        System.out.println("Enemy does not have a special attack.");
     }
 
 
@@ -25,6 +31,14 @@ public class Enemy {
     // setter for healthPoints
     public void setHealthPoints(int healthPoints)   {
         this.healthPoints = healthPoints;
+    }
+
+    public int getHealthPointsRemaining()    {
+        return healthPointsRemaining;
+    }
+
+    public void setHealthPointsRemaining(int healthPointsRemaining) {
+        this.healthPointsRemaining = healthPointsRemaining;
     }
 
     //getter for attackDamage
