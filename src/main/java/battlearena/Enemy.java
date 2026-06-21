@@ -2,7 +2,8 @@ package battlearena;
 
 // Enemy class implements the IEnemy interface
 // This means Enemy must include the methods required by IEnemy
-public class Enemy implements IEnemy {
+// Child classes can extend Enemy and reuse its fields and methods
+public abstract class Enemy implements IEnemy {
 
     // Stores the enemy's unique ID number
     private int id;
