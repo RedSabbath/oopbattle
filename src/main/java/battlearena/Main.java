@@ -6,9 +6,13 @@ public class Main {
 
         Zombie zombie = new Zombie(10, 1);
         Ogre ogre = new Ogre(20,3);
-
-
-        System.out.println(zombie.getId());
-        System.out.println(ogre.getId());
+        battle(zombie);
+        battle(ogre);
     }
+
+    public static void battle(Enemy e)  {
+        e.talk();
+        e.attack();
+    }
+
 }
