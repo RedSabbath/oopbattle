@@ -23,7 +23,7 @@ public class Hero implements IHero {
 
     @Override
     public int getHealthPointsRemaining()   {
-        return healthPointsRemaining
+        return healthPointsRemaining;
     }
 
     @Override
@@ -61,12 +61,12 @@ public class Hero implements IHero {
 
     @Override
     public void setWeaponEquipped(boolean isWeaponEquipped) {
-        this.isWeaponEquipped = isWeaponEquipped
+        this.isWeaponEquipped = isWeaponEquipped;
     }
 
     @Override
     public void setAttackDamage(int attackDamage)   {
-        this.attackDamage = attackDamage
+        this.attackDamage = attackDamage;
     }
 
     @Override
