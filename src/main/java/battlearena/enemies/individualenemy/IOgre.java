@@ -1,4 +1,4 @@
-package battlearena;
+package battlearena.enemies.individualenemy;
 
 // IOgre is an interface.
 // It lists methods that only Ogre-type enemies must have.

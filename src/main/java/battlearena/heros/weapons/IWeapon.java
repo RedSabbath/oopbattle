@@ -1,4 +1,4 @@
-package battlearena;
+package battlearena.heros.weapons;
 
 public interface IWeapon {
 

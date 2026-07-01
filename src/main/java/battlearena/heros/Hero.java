@@ -1,4 +1,6 @@
-package battlearena;
+package battlearena.heros;
+
+import battlearena.heros.weapons.Weapon;
 
 public class Hero implements IHero {
 

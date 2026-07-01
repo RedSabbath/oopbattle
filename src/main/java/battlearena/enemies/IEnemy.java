@@ -1,4 +1,4 @@
-package battlearena;
+package battlearena.enemies;
 
 // This is an interface.
 // It lists the methods that any enemy class must have.

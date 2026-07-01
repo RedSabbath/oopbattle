@@ -1,4 +1,4 @@
-package battlearena;
+package battlearena.enemies;
 
 // Enemy class implements the IEnemy interface
 // This means Enemy must include the methods required by IEnemy

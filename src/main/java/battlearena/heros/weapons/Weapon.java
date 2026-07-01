@@ -1,4 +1,4 @@
-package battlearena;
+package battlearena.heros.weapons;
 
 public class Weapon implements IWeapon{
 

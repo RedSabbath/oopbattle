@@ -1,4 +1,6 @@
-package battlearena;
+package battlearena.enemies.individualenemy;
+
+import battlearena.enemies.Enemy;
 
 // Zombie is a child class of Enemy
 // It also implements the IZombie interface

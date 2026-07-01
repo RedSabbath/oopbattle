@@ -1,4 +1,4 @@
-package battlearena;
+package battlearena.enemies.individualenemy;
 
 // IZombie is an interface.
 // It lists methods that only Zombie-type enemies must have.
